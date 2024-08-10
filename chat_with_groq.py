@@ -10,6 +10,7 @@ from langchain.schema import AIMessage, HumanMessage, SystemMessage
 model = ChatGroq(model="llama-3.1-70b-versatile")
 
 
+
 chat_history = []  # Use a list to store messages
 
 # Set an initial system message (optional)
